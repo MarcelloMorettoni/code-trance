@@ -1,4 +1,4 @@
-` ` `
+```
 // The Golden Ratio Song
 // BPM is 144 (A Fibonacci number: 12th in the sequence)
 setCpm(144/4)
@@ -20,4 +20,4 @@ $: n("0 1 1 2 3 5 8 13 8 5 3 2 1")
    .attack(0.01).release(0.3) // Replaced .env/.rel with .attack/.release
    .delay(0.5).delaytime(8/13)
    ._pianoroll()
-` ` `
+```
