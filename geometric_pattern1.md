@@ -1,4 +1,4 @@
-` ` `
+```
 setCpm(142/4)
 
 // 1. The "Heartbeat" (Euclidean Kick)
@@ -25,4 +25,4 @@ $: s("glitch*8").n(irand(8))
 $: n("0").scale("c:minor").trans(-24)
   .s("sawtooth").detune(0.02)
   .lpf(200).gain(1.1)
-` ` `
+```
